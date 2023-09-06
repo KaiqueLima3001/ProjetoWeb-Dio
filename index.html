@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tags HTML e Estilo</title>
+    <title>Projeto Web Dio</title>
 </head>
 <body>
-     <style>
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
             padding: 20px;
+            background-color: #ffc0cb;
         }
         
-        h1, h2, h3 {
+        h2, h3, h4 {
             color: #333;
         }
         
@@ -85,23 +86,28 @@
             margin: 20px 0;
         }
     </style>
-    <h1>Tag &lt;h1&gt; - Título Principal</h1>
+    <h1 style="border-bottom: 2px solid black;" id="inicio">HTML: A Linguagem da Estruturação de Conteúdo na Web</h1>
+
+    <h2>Tag &lt;h1&gt; - Título Principal</h2>
     <p>A tag &lt;h1&gt; é usada para definir o título principal de uma página. Geralmente, há apenas um &lt;h1&gt; por página, pois representa o tópico principal do conteúdo.</p>
 
-    <h2>Tag &lt;h2&gt; - Título de Seção</h2>
+    <h3>Tag &lt;h2&gt; - Título de Seção</h3>
     <p>A tag &lt;h2&gt; é usada para criar títulos de seção dentro de uma página. Ela é usada para organizar o conteúdo em partes menores e hierarquicamente.</p>
 
-    <h3>Tag &lt;h3&gt; - Título de Subseção</h3>
+    <h4>Tag &lt;h3&gt; - Título de Subseção</h4>
     <p>A tag &lt;h3&gt; é semelhante ao &lt;h2&gt;, mas é usada para criar títulos de subseções dentro das seções definidas com &lt;h2&gt;.</p>
 
     <p>Aqui estão outras tags importantes em HTML:</p>
 
     <ul>
-        <li><strong>&lt;p&gt; - Parágrafo</strong>: A tag &lt;p&gt; é usada para criar parágrafos de texto. Ela é essencial para formatar o texto em blocos.</li>
+        <li><strong>&lt;p&gt; - Parágrafo</strong>: A tag &lt;p&gt; é usada para criar parágrafos de texto. Ela é essencial para formatar o texto em blocos.(Leia mais sobre a tag &lt;p&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">aqui</a>)</li>
         <li><mark>&lt;mark&gt; - Destaque</mark>: A tag &lt;mark&gt; é usada para destacar parte do texto, como um termo importante.</li>
         <li><small>&lt;small&gt; - Texto Pequeno</small>: A tag &lt;small&gt; é usada para diminuir o tamanho do texto, tornando-o menos proeminente.</li>
         <li><i>&lt;i&gt; - Texto Em Itálico</i>: A tag &lt;i&gt; é usada para enfatizar o texto, geralmente exibindo-o em itálico.</li>
         <li><u>&lt;u&gt; - Texto Sublinhado</u>: A tag &lt;u&gt; é usada para sublinhar o texto, indicando ênfase ou links.</li>
+        <li><font>&lt;font&gt; - Fonte</font>: A tag &lt;font&gt; foi usada no passado para definir estilos de fonte diretamente no HTML. No entanto, seu uso é desencorajado em favor do CSS para estilos de fonte mais modernos.(Leia mais sobre a tag &lt;font&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font" target="_blank">aqui</a>)</li>
+        <li><del>&lt;del&gt; - Texto Excluído</del>: A tag &lt;del&gt; é usada para representar texto que foi deletado ou riscado. Ela é frequentemente usada em documentos revisados ou alterados.(Leia mais sobre a tag &lt;del&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del" target="_blank">aqui</a>)</li>
+        <li><abbr>&lt;abbr&gt; - Abreviação</abbr>: A tag &lt;abbr&gt; é usada para definir abreviações e acrônimos, permitindo que os navegadores forneçam informações adicionais quando o usuário passa o mouse sobre o texto abreviado.(Leia mais sobre a tag &lt;abbr&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" target="_blank">aqui</a>)</li>
     </ul>
 
     <ol>
@@ -116,7 +122,7 @@
         <li>Item de lista não ordenada 3</li>
     </ul>
 
-    <p>Você também pode <a href="#">criar links</a> para outras páginas ou recursos da web.</p>
+    <p>Você também pode <a href="#inicio">criar links</a> para outras páginas ou recursos da web.</p>
 
     <hr>
 
